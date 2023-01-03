@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" type="image/x-icon" href="img/logo.svg" />
+<link
+  rel="stylesheet"
+  href=" 	https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+/>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+<link rel="stylesheet" href="css/style.min.css" />
+
+<title>Main page</title>
+
+  </head>
+  <body style="background: url(img/bg.png)">
+    <header class="my-3 px-4">
+  <nav class="navbar navbar-expand-lg bg-grey p-0">
+    <div class="container-xl justify-content-between d-flex px-2">
+      <div class="">
+        <a class="navbar-brand text-white" href="/index.html">
+          <img src="img/logo.svg" alt="logo" />
+        </a>
+      </div>
+      <button
+        class="navbar-toggler bg-light"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+        <ul class="navbar-nav gap-4">
+          <li class="nav-item py-2">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item py-2">
+            <a class="nav-link text-white" href="#">About</a>
+          </li>
+          <li class="nav-item py-2">
+            <a class="nav-link text-white" href="#">Services</a>
+          </li>
+          <li class="nav-item py-2">
+            <a class="nav-link text-white" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item py-2">
+            <a class="nav-link text-white" href="#">Pricing</a>
+          </li>
+          <li class="nav-item py-2">
+            <a class="nav-link text-white" href="#">Team</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+    <main>
+      <section class="hero px-4">
+  <div class="container-xl">
+    <div class="row d-flex align-items-center">
+      <div class="col-lg-10 col-md-12 position-relative">
+        <div class="text-white text-uppercase mb-5">
+          <p class="fw-bold mb-2 title-hero">Путешествуй</p>
+          <div class="text-yellow position-absolute unique-text">
+            together with
+          </div>
+          <p class="title-border">Pero travel</p>
+        </div>
+        <div>
+          <button
+            type="button"
+            class="btn btn-primary px-5 rounded-5 gradient-blue icon-arrow-after text-white d-flex align-items-center"
+            style="font-size: 16px"
+            onclick="window.open('excources.html', '_self')"
+          >
+            К экскурсиям
+          </button>
+        </div>
+      </div>
+      <div
+        class="col-lg-2 col-md-12 align-items-end d-flex flex-column my-5 gap-2"
+      >
+        <div>
+          <a href="" class="text-decoration-none">
+            <span class="icon-vk text-white social-link"></span>
+          </a>
+        </div>
+        <div>
+          <a href="" class="text-decoration-none">
+            <span class="icon-inst text-white social-link"></span>
+          </a>
+        </div>
+        <div>
+          <a href="" class="text-decoration-none">
+            <span class="icon-facebook text-white social-link"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ <div class="excourse px-4">
+  <div class="container-xl">
+    <div class="row d-flex justify-content-between" style="margin-bottom: 75px">
+      <div style="width: initial" class="text-primary fs-5 fw-bold">
+        Популярные экскурсии
+      </div>
+      <div style="width: initial">
+        <a href="" class="text-black" style="font-size: 12px">Смотреть все</a>
+      </div>
+    </div>
+    <div class="row d-flex gap-4 swiper">
+      <div class="swiper-wrapper" style="margin-left: -10px">
+        <div
+          class="col-4 rounded-2 text-decoration-none swiper-slide p-3"
+          style="
+            background: url(img/itembg-2.png);
+            background-size: cover;
+            height: auto;
+          "
+        >
+          <div
+            style="font-size: 12px; margin-top: 200px"
+            class="text-white mb-2"
+          >
+            Автобусний тур
+          </div>
+          <div class="text-yellow">Обзорная по Сочи (из Адлера)</div>
+          <div class="d-flex gap-4 my-2 mb-4">
+            <div>
+              <span class="icon-time text-white" style="font-size: 12px"
+                >6 Часов
+              </span>
+            </div>
+            <div>
+              <span class="icon-money text-white" style="font-size: 12px"
+                >618
+              </span>
+            </div>
+          </div>
+          <div class="text-white mb-4">
+            Приглашаем вас на экскурсию "Обзорная по Большому Сочи": Экскурсия
+            начнется с подъёма на гору Большой Ахун - это высшая точка (665
+            метров) на побережьи Сочи. На вершине горы Большой Ахун есть
+            смотровая башня, построенная в 1935-36 годах по проекту архитектора
+            С. И. Воробьева...
+          </div>
+          <div class="btn btn-primary px-5 rounded-5 gradient-blue mb-3">
+            <a href="item.html" class="text-decoration-none text-white"
+              >Подробнее</a
+            >
+          </div>
+        </div>
+        <div
+          class="col-4 rounded-2 text-decoration-none swiper-slide p-3"
+          style="
+            background: url(img/itembg-3.png);
+            background-size: cover;
+            height: auto;
+          "
+        >
+          <div
+            style="font-size: 12px; margin-top: 200px"
+            class="text-white mb-2"
+          >
+            Конный тур
+          </div>
+          <div class="text-yellow">Конные прогулки</div>
+          <div class="d-flex gap-4 my-2 mb-4">
+            <div>
+              <span class="icon-time text-white" style="font-size: 12px"
+                >1,5 часа
+              </span>
+            </div>
+            <div>
+              <span class="icon-money text-white" style="font-size: 12px"
+                >1 809
+              </span>
+            </div>
+          </div>
+          <div class="text-white mb-4">
+            Конные прогулки проходят в Лазурной долине. С долины открывается
+            красивый вид на море, горы и лес. На всем пути следования экскурсии
+            вас будут сопровождать опытные инструктора. Катание на лошадях или
+            иппотерапия очень полезна для детей и взрослых...
+          </div>
+          <div class="btn btn-primary px-5 rounded-5 gradient-blue mb-3">
+            <a href="item.html" class="text-decoration-none text-white"
+              >Подробнее</a
+            >
+          </div>
+        </div>
+        <div
+          class="col-4 rounded-2 text-decoration-none swiper-slide p-3"
+          style="
+            background: url(img/itembg-1.png);
+            background-size: cover;
+            height: auto;
+          "
+        >
+          <div
+            style="font-size: 12px; margin-top: 200px"
+            class="text-white mb-2"
+          >
+            Квадротур
+          </div>
+          <div class="text-yellow">Пасть дракона</div>
+          <div class="d-flex gap-4 my-2 mb-4">
+            <div>
+              <span class="icon-time text-white" style="font-size: 12px"
+                >2,5 часа
+              </span>
+            </div>
+            <div>
+              <span class="icon-money text-white" style="font-size: 12px"
+                >3 515
+              </span>
+            </div>
+          </div>
+          <div class="text-white mb-4">
+            Маршрут на Квадроциклах проходит по горной реке Мзымта вдоль белых
+            скал и самшитовый лес к водопаду Глубокий Яр или "Пасть Дракона"
+            (экскурсионное название). Высота водопада 41,5 метр - это один из
+            самых высоких водопадов Большого Сочи...
+          </div>
+          <div class="btn btn-primary px-5 rounded-5 gradient-blue mb-3">
+            <a href="item.html" class="text-decoration-none text-white"
+              >Подробнее</a
+            >
+          </div>
+        </div>
+        <div
+          class="col-4 rounded-2 text-decoration-none swiper-slide p-3"
+          style="
+            background: url(img/itembg-2.png);
+            background-size: cover;
+            height: auto;
+          "
+        >
+          <div
+            style="font-size: 12px; margin-top: 200px"
+            class="text-white mb-2"
+          >
+            Автобусний тур
+          </div>
+          <div class="text-yellow">Обзорная по Сочи (из Адлера)</div>
+          <div class="d-flex gap-4 my-2 mb-4">
+            <div>
+              <span class="icon-time text-white" style="font-size: 12px"
+                >6 Часов
+              </span>
+            </div>
+            <div>
+              <span class="icon-money text-white" style="font-size: 12px"
+                >618
+              </span>
+            </div>
+          </div>
+          <div class="text-white mb-4">
+            Приглашаем вас на экскурсию "Обзорная по Большому Сочи": Экскурсия
+            начнется с подъёма на гору Большой Ахун - это высшая точка (665
+            метров) на побережьи Сочи. На вершине горы Большой Ахун есть
+            смотровая башня, построенная в 1935-36 годах по проекту архитектора
+            С. И. Воробьева...
+          </div>
+          <div class="btn btn-primary px-5 rounded-5 gradient-blue mb-3">
+            <a href="item.html" class="text-decoration-none text-white"
+              >Подробнее</a
+            >
+          </div>
+        </div>
+        <div
+          class="col-4 rounded-2 text-decoration-none swiper-slide p-3"
+          style="
+            background: url(img/itembg-3.png);
+            background-size: cover;
+            height: auto;
+          "
+        >
+          <div
+            style="font-size: 12px; margin-top: 200px"
+            class="text-white mb-2"
+          >
+            Конный тур
+          </div>
+          <div class="text-yellow">Конные прогулки</div>
+          <div class="d-flex gap-4 my-2 mb-4">
+            <div>
+              <span class="icon-time text-white" style="font-size: 12px"
+                >1,5 часа
+              </span>
+            </div>
+            <div>
+              <span class="icon-money text-white" style="font-size: 12px"
+                >1 809
+              </span>
+            </div>
+          </div>
+          <div class="text-white mb-4">
+            Конные прогулки проходят в Лазурной долине. С долины открывается
+            красивый вид на море, горы и лес. На всем пути следования экскурсии
+            вас будут сопровождать опытные инструктора. Катание на лошадях или
+            иппотерапия очень полезна для детей и взрослых...
+          </div>
+          <div class="btn btn-primary px-5 rounded-5 gradient-blue mb-3">
+            <a href="item.html" class="text-decoration-none text-white"
+              >Подробнее</a
+            >
+          </div>
+        </div>
+        <div
+          class="col-4 rounded-2 text-decoration-none swiper-slide p-3"
+          style="
+            background: url(img/itembg-1.png);
+            background-size: cover;
+            height: auto;
+          "
+        >
+          <div
+            style="font-size: 12px; margin-top: 200px"
+            class="text-white mb-2"
+          >
+            Квадротур
+          </div>
+          <div class="text-yellow">Пасть дракона</div>
+          <div class="d-flex gap-4 my-2 mb-4">
+            <div>
+              <span class="icon-time text-white" style="font-size: 12px"
+                >2,5 часа
+              </span>
+            </div>
+            <div>
+              <span class="icon-money text-white" style="font-size: 12px"
+                >3 515
+              </span>
+            </div>
+          </div>
+          <div class="text-white mb-4">
+            Маршрут на Квадроциклах проходит по горной реке Мзымта вдоль белых
+            скал и самшитовый лес к водопаду Глубокий Яр или "Пасть Дракона"
+            (экскурсионное название). Высота водопада 41,5 метр - это один из
+            самых высоких водопадов Большого Сочи...
+          </div>
+          <div class="btn btn-primary px-5 rounded-5 gradient-blue mb-3">
+            <a href="item.html" class="text-decoration-none text-white"
+              >Подробнее</a
+            >
+          </div>
+        </div>
+        <div
+          class="col-4 rounded-2 text-decoration-none swiper-slide p-3"
+          style="
+            background: url(img/itembg-2.png);
+            background-size: cover;
+            height: auto;
+          "
+        >
+          <div
+            style="font-size: 12px; margin-top: 200px"
+            class="text-white mb-2"
+          >
+            Автобусний тур
+          </div>
+          <div class="text-yellow">Обзорная по Сочи (из Адлера)</div>
+          <div class="d-flex gap-4 my-2 mb-4">
+            <div>
+              <span class="icon-time text-white" style="font-size: 12px"
+                >6 Часов
+              </span>
+            </div>
+            <div>
+              <span class="icon-money text-white" style="font-size: 12px"
+                >618
+              </span>
+            </div>
+          </div>
+          <div class="text-white mb-4">
+            Приглашаем вас на экскурсию "Обзорная по Большому Сочи": Экскурсия
+            начнется с подъёма на гору Большой Ахун - это высшая точка (665
+            метров) на побережьи Сочи. На вершине горы Большой Ахун есть
+            смотровая башня, построенная в 1935-36 годах по проекту архитектора
+            С. И. Воробьева...
+          </div>
+          <div class="btn btn-primary px-5 rounded-5 gradient-blue mb-3">
+            <a href="item.html" class="text-decoration-none text-white"
+              >Подробнее</a
+            >
+          </div>
+        </div>
+        <div
+          class="col-4 rounded-2 text-decoration-none swiper-slide p-3"
+          style="
+            background: url(img/itembg-3.png);
+            background-size: cover;
+            height: auto;
+          "
+        >
+          <div
+            style="font-size: 12px; margin-top: 200px"
+            class="text-white mb-2"
+          >
+            Конный тур
+          </div>
+          <div class="text-yellow">Конные прогулки</div>
+          <div class="d-flex gap-4 my-2 mb-4">
+            <div>
+              <span class="icon-time text-white" style="font-size: 12px"
+                >1,5 часа
+              </span>
+            </div>
+            <div>
+              <span class="icon-money text-white" style="font-size: 12px"
+                >1 809
+              </span>
+            </div>
+          </div>
+          <div class="text-white mb-4">
+            Конные прогулки проходят в Лазурной долине. С долины открывается
+            красивый вид на море, горы и лес. На всем пути следования экскурсии
+            вас будут сопровождать опытные инструктора. Катание на лошадях или
+            иппотерапия очень полезна для детей и взрослых...
+          </div>
+          <div class="btn btn-primary px-5 rounded-5 gradient-blue mb-3">
+            <a href="item.html" class="text-decoration-none text-white"
+              >Подробнее</a
+            >
+          </div>
+        </div>
+        <div
+          class="col-4 rounded-2 text-decoration-none swiper-slide p-3"
+          style="
+            background: url(img/itembg-1.png);
+            background-size: cover;
+            height: auto;
+          "
+        >
+          <div
+            style="font-size: 12px; margin-top: 200px"
+            class="text-white mb-2"
+          >
+            Квадротур
+          </div>
+          <div class="text-yellow">Пасть дракона</div>
+          <div class="d-flex gap-4 my-2 mb-4">
+            <div>
+              <span class="icon-time text-white" style="font-size: 12px"
+                >2,5 часа
+              </span>
+            </div>
+            <div>
+              <span class="icon-money text-white" style="font-size: 12px"
+                >3 515
+              </span>
+            </div>
+          </div>
+          <div class="text-white mb-4">
+            Маршрут на Квадроциклах проходит по горной реке Мзымта вдоль белых
+            скал и самшитовый лес к водопаду Глубокий Яр или "Пасть Дракона"
+            (экскурсионное название). Высота водопада 41,5 метр - это один из
+            самых высоких водопадов Большого Сочи...
+          </div>
+          <div class="btn btn-primary px-5 rounded-5 gradient-blue mb-3">
+            <a href="item.html" class="text-decoration-none text-white"
+              >Подробнее</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="swiper-button-prev position-absolute"
+        style="top: calc(100% + 41px); transform: translate(0%, 0%); left: 5%"
+      ></div>
+      <div
+        class="swiper-button-next position-absolute"
+        style="top: calc(100% + 41px); transform: translate(0%, 0%); left: 13%"
+      ></div>
+      <div
+        class="swiper-scrollbar position-absolute"
+        style="
+          bottom: -43px;
+          transform: scale(0.85, 1) translate(-45%, 0%);
+          left: 50%;
+        "
+      ></div>
+    </div>
+  </div>
+</div>
+
+      <section class="about px-4" style="background: url(img/lake.png)">
+  <div class="container-xl">
+    <div class="row justify-content-end">
+      <div
+        class="col-6 p-5 rounded-2 d-flex flex-column gap-3"
+        style="background-color: #ededed"
+      >
+        <div class="text-primary">О нас</div>
+        <div class="d-flex flex-column gap-3">
+          <p>
+            PeroTravel - Первый онлайн-сервис по бронированию экскурсий без
+            очередей и операторов. <br />
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+          <p>
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+            quae ab illo inventore veritatis et quasi architecto beatae vitae
+            dicta sunt explicabo.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ <section class="excourse-text px-4">
+  <div class="container-xl">
+    <div class="text-primary fw-bold" style="font-size: 24px">
+      Виды экскурсий
+    </div>
+    <div class="row pt-3">
+      <div class="col-lg-6 col-sm-12 d-flex gap-3 mt-5">
+        <div class="img-fluid">
+          <img src="img/bus.png" alt="bus" />
+        </div>
+        <div class="d-flex gap-3 flex-column">
+          <div class="text-primary">Автобусный тур</div>
+          <div>
+            Один из самых насыщенных впечатлениями, доступных по цене и
+            популярных видов отдыха. Во время одной поездки можно посмотреть
+            достопримечательности сразу нескольких городов, причем обойдется это
+            едва ли не в разы дешевле классического экскурсионного тура с
+            ночевками в отелях.
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-sm-12 d-flex gap-3 mt-5">
+        <div class="img-fluid">
+          <img src="img/bus.png" alt="bus" />
+        </div>
+        <div class="d-flex gap-3 flex-column">
+          <div class="text-primary">Автобусный тур</div>
+          <div>
+            Один из самых насыщенных впечатлениями, доступных по цене и
+            популярных видов отдыха. Во время одной поездки можно посмотреть
+            достопримечательности сразу нескольких городов, причем обойдется это
+            едва ли не в разы дешевле классического экскурсионного тура с
+            ночевками в отелях.
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-sm-12 d-flex gap-3 mt-5">
+        <div class="img-fluid">
+          <img src="img/bus.png" alt="bus" />
+        </div>
+        <div class="d-flex gap-3 flex-column">
+          <div class="text-primary">Автобусный тур</div>
+          <div>
+            Один из самых насыщенных впечатлениями, доступных по цене и
+            популярных видов отдыха. Во время одной поездки можно посмотреть
+            достопримечательности сразу нескольких городов, причем обойдется это
+            едва ли не в разы дешевле классического экскурсионного тура с
+            ночевками в отелях.
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-sm-12 d-flex gap-3 mt-5">
+        <div class="img-fluid">
+          <img src="img/bus.png" alt="bus" />
+        </div>
+        <div class="d-flex gap-3 flex-column">
+          <div class="text-primary">Автобусный тур</div>
+          <div>
+            Один из самых насыщенных впечатлениями, доступных по цене и
+            популярных видов отдыха. Во время одной поездки можно посмотреть
+            достопримечательности сразу нескольких городов, причем обойдется это
+            едва ли не в разы дешевле классического экскурсионного тура с
+            ночевками в отелях.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-center my-5" style="max-width: 70%; margin: 0 auto">
+      Выбирайте на нашем сайте экскурсию, которая подходит именно вам и
+      записывайтесь онлайн без очередей, просто и быстро!
+    </div>
+    <div class="text-center">
+      <button
+        type="button"
+        class="btn btn-primary px-5 rounded-5 icon-arrow-after text-white d-flex align-items-center"
+        style="font-size: 16px; margin: 0 auto"
+        onclick="window.open('excources.html', '_self')"
+      >
+        К экскурсиям
+      </button>
+    </div>
+  </div>
+</section>
+
+      <section class="galery px-4">
+  <div class="container-xl">
+    <div class="row d-flex justify-content-between" style="margin-bottom: 75px">
+      <div style="width: initial" class="text-primary fs-5 fw-bold">
+        Галерея
+      </div>
+      <div style="width: initial">
+        <a href="" class="text-black" style="font-size: 12px">Смотреть все</a>
+      </div>
+    </div>
+    <div
+      class="d-grid p-2 gap-2 overflow-hidden rounded-4"
+      style="grid-auto-rows: 567px; grid-template-columns: repeat(3, 1fr)"
+    >
+      <div class="d-grid" style="grid-template-columns: repeat(1, 1fr)">
+        <div>
+          <img src="img/galery-2.png" alt="image" />
+        </div>
+        <div class="d-grid" style="grid-template-columns: repeat(2, 1fr)">
+          <img src="img/galery-3.png" alt="image" />
+          <img src="img/galery-4.png" alt="image" />
+        </div>
+      </div>
+      <div>
+        <img
+          src="img/galery-1.png"
+          alt="image"
+          style="height: calc(100% - 10px)"
+        />
+      </div>
+      <div class="d-grid" style="grid-template-columns: repeat(1, 1fr)">
+        <div>
+          <img src="img/galery-2.png" alt="image" />
+        </div>
+        <div class="d-grid" style="grid-template-columns: repeat(2, 1fr)">
+          <div>
+            <img src="img/galery-3.png" alt="image" />
+          </div>
+          <div>
+            <img src="img/galery-4.png" alt="image" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ <section class="reviews">
+  <div class="container-xl position-relative">
+    <div class="row d-flex justify-content-between" style="margin-bottom: 75px">
+      <div style="width: initial" class="text-primary fs-5 fw-bold">Отзывы</div>
+      <div style="width: initial">
+        <a href="" class="text-black" style="font-size: 12px">Смотреть все</a>
+      </div>
+    </div>
+    <div class="row d-flex gap-4 swiper-review mx-2">
+      <div class="swiper-wrapper gap-2">
+        <div
+          class="swiper-slide p-4 position-relative rounded-2 row me-4"
+          style="background: #ededed"
+        >
+          <div
+            class="position-absolute brackets"
+            style="top: 20%; left: 350px; z-index: -1"
+          >
+            <img src="img/reviewbg.png" alt="reviewbg" />
+          </div>
+          <div class="col-lg-3 col-md-6 mb-3" style="min-width: 150px">
+            <img
+              src="img/authorphoto.png"
+              style="min-width: 150px"
+              alt="authorphot"
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-lg-9 col-md-12">
+            <p class="fw-bold mb-3">Иван Иванов, 25 лет</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </div>
+        <div
+          class="swiper-slide p-4 position-relative rounded-2 row me-4"
+          style="background: #ededed"
+        >
+          <div
+            class="position-absolute brackets"
+            style="top: 20%; left: 350px; z-index: -1"
+          >
+            <img src="img/reviewbg.png" alt="reviewbg" />
+          </div>
+          <div class="col-lg-3 col-md-6 mb-3" style="min-width: 150px">
+            <img
+              src="img/authorphoto.png"
+              style="min-width: 150px"
+              alt="authorphot"
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-lg-9 col-md-12">
+            <p class="fw-bold mb-3">Иван Иванов, 25 лет</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </div>
+        <div
+          class="swiper-slide p-4 position-relative rounded-2 row me-4"
+          style="background: #ededed"
+        >
+          <div
+            class="position-absolute brackets"
+            style="top: 20%; left: 350px; z-index: -1"
+          >
+            <img src="img/reviewbg.png" alt="reviewbg" />
+          </div>
+          <div class="col-lg-3 col-md-6 mb-3" style="min-width: 150px">
+            <img
+              src="img/authorphoto.png"
+              style="min-width: 150px"
+              alt="authorphot"
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-lg-9 col-md-12">
+            <p class="fw-bold mb-3">Иван Иванов, 25 лет</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </div>
+        <div
+          class="swiper-slide p-4 position-relative rounded-2 row me-4"
+          style="background: #ededed"
+        >
+          <div
+            class="position-absolute brackets"
+            style="top: 20%; left: 350px; z-index: -1"
+          >
+            <img src="img/reviewbg.png" alt="reviewbg" />
+          </div>
+          <div class="col-lg-3 col-md-6 mb-3" style="min-width: 150px">
+            <img
+              src="img/authorphoto.png"
+              style="min-width: 150px"
+              alt="authorphot"
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-lg-9 col-md-12">
+            <p class="fw-bold mb-3">Иван Иванов, 25 лет</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </div>
+        <div
+          class="swiper-slide p-4 position-relative rounded-2 row me-4"
+          style="background: #ededed"
+        >
+          <div
+            class="position-absolute brackets"
+            style="top: 20%; left: 350px; z-index: -1"
+          >
+            <img src="img/reviewbg.png" alt="reviewbg" />
+          </div>
+          <div class="col-lg-3 col-md-6 mb-3" style="min-width: 150px">
+            <img
+              src="img/authorphoto.png"
+              style="min-width: 150px"
+              alt="authorphot"
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-lg-9 col-md-12">
+            <p class="fw-bold mb-3">Иван Иванов, 25 лет</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </div>
+        <div
+          class="swiper-slide p-4 position-relative rounded-2 row me-4"
+          style="background: #ededed"
+        >
+          <div
+            class="position-absolute brackets"
+            style="top: 20%; left: 350px; z-index: -1"
+          >
+            <img src="img/reviewbg.png" alt="reviewbg" />
+          </div>
+          <div class="col-lg-3 col-md-6 mb-3" style="min-width: 150px">
+            <img
+              src="img/authorphoto.png"
+              style="min-width: 150px"
+              alt="authorphot"
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-lg-9 col-md-12">
+            <p class="fw-bold mb-3">Иван Иванов, 25 лет</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="swiper-button-prev position-absolute"
+        style="top: calc(100% + 32px); transform: translate(0%, 0%); left: 3%"
+      ></div>
+      <div
+        class="swiper-button-next position-absolute"
+        style="top: calc(100% + 32px); transform: translate(0%, 0%); left: 8%"
+      ></div>
+      <div
+        class="swiper-scrollbar position-absolute"
+        style="
+          bottom: -34px;
+          transform: scale(0.9, 1) translate(-47%, 0%);
+          left: 50%;
+        "
+      ></div>
+    </div>
+  </div>
+</section>
+
+      <section class="contact" style="background: url(img/contactbg.png)">
+  <div class="container-xl">
+    <div class="row justify-content-end">
+      <div
+        class="col-md-6 col-sm-12"
+        style="backdrop-filter: blur(5px); padding: 100px 3rem"
+      >
+        <div class="text-white fw-bold mb-3" style="font-size: 24px">
+          Остались вопросы?
+        </div>
+        <div class="text-yellow mb-5">Оставь заявку и мы ответим</div>
+        <form>
+          <div class="mb-5">
+            <input type="text" class="form-control" placeholder="Имя" />
+          </div>
+          <div class="mb-5">
+            <input type="tel" class="form-control" placeholder="Телефон" />
+          </div>
+          <div class="mb-5">
+            <input type="email" class="form-control" placeholder="Почта" />
+          </div>
+          <button
+            type="button"
+            class="btn btn-primary px-5 my-5 rounded-5 gradient-blue text-white d-flex align-items-center fw-bold"
+            style="font-size: 16px; margin-top: 80px !important"
+          >
+            Оставить заявку
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+    </main>
+    <footer style="background: #ededed">
+  <div class="container-xl p-4">
+    <div class="row align-items-center">
+      <div class="col-md-2 col-sm-12">
+        <img src="img/logo-colorful.png" alt="logo" />
+      </div>
+      <div class="col-md-4 d-flex flex-column gap-3 footer-links">
+        <a href="" class="text-decoration-none text-black nav-link">Главная</a>
+        <a href="" class="text-decoration-none text-black nav-link"
+          >Экскурсии</a
+        >
+        <a href="" class="text-decoration-none text-black nav-link"
+          >Личный кабинет</a
+        >
+      </div>
+      <div class="col-md-4 col-sm-12 d-flex flex-column gap-3">
+        <a href="" class="icon-whatsup" style="font-size: 16px"
+          >+7 964 944 18 74</a
+        >
+        <a href="" class="icon-telegram" style="font-size: 16px"
+          >+7 918 919 98 28</a
+        >
+        <a href="" class="icon-telegram" style="font-size: 16px"
+          >Телеграм-бот PeroTravel</a
+        >
+      </div>
+      <div class="col-md-2 d-flex footer-socials">
+        <a
+          class="icon-vk social-link p-2"
+          style="color: #bc0000; font-size: 24px"
+        ></a>
+        <a
+          class="icon-inst social-link text-yellow p-2"
+          style="font-size: 24px"
+        ></a>
+        <a
+          class="icon-facebook social-link p-2"
+          style="color: #17c1bc; font-size: 24px"
+        ></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    <script src="js/app.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

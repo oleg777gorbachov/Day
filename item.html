@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" type="image/x-icon" href="img/logo.svg" />
+<link
+  rel="stylesheet"
+  href=" 	https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+/>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+<link rel="stylesheet" href="css/style.min.css" />
+
+<title>Item</title>
+
+    <style>
+      body {
+        background-size: 100% 600px !important;
+      }
+      @media screen and (max-width: 654px) {
+        body {
+          background-size: auto 700px !important;
+        }
+      }
+
+      #calendar {
+        max-width: 360px;
+      }
+
+      select {
+        max-width: 360px;
+      }
+
+      #calendar-month {
+        @media screen and (max-width: 386px) {
+          transform: scale(1.1);
+        }
+      }
+
+      .icon-heart::before {
+        margin-right: 0px;
+      }
+    </style>
+  </head>
+
+  <body style="background: url(img/mountain.png)">
+    <header class="my-3 px-4">
+  <nav class="navbar navbar-expand-lg bg-grey p-0">
+    <div class="container-xl justify-content-between d-flex px-2">
+      <div class="">
+        <a class="navbar-brand text-white" href="/index.html">
+          <img src="img/logo.svg" alt="logo" />
+        </a>
+      </div>
+      <button
+        class="navbar-toggler bg-light"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+        <ul class="navbar-nav gap-4">
+          <li class="nav-item py-2">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item py-2">
+            <a class="nav-link text-white" href="#">About</a>
+          </li>
+          <li class="nav-item py-2">
+            <a class="nav-link text-white" href="#">Services</a>
+          </li>
+          <li class="nav-item py-2">
+            <a class="nav-link text-white" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item py-2">
+            <a class="nav-link text-white" href="#">Pricing</a>
+          </li>
+          <li class="nav-item py-2">
+            <a class="nav-link text-white" href="#">Team</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+    <main>
+      <section class="hero px-4">
+        <div class="container-xl">
+          <div class="row d-flex align-items-center">
+            <div class="col-lg-10 col-md-12 position-relative">
+              <div class="text-white text-uppercase mb-5">
+                <p class="text-yellow mb-2">Автобусный тур</p>
+                <p class="fw-bold mb-4" style="font-size: 48px">
+                  ЗОЛОТОЕ КОЛЬЦО АБХАЗИИ (ИЗ АДЛЕРА)
+                </p>
+                <div class="d-flex gap-3 flex-wrap">
+                  <button
+                    type="button"
+                    class="btn btn-primary px-5 rounded-5 gradient-blue icon-arrow-after text-white d-flex align-items-center"
+                    style="font-size: 16px"
+                    onclick="window.open('excources.html', '_self')"
+                  >
+                    К другим экскурсиям
+                  </button>
+                  <button
+                    class="like-transparent icon-heart text-white"
+                    style="font-size: 22px"
+                  >
+                    <!-- <img src="img/Heart.svg" alt="like" /> -->
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section style="margin-top: 300px; margin-bottom: 150px">
+        <div class="container-xl">
+          <div class="row align-items-center">
+            <div class="col-12 col-lg-5 pe-5">
+              <p class="fw-bold mb-4" style="color: #0499dd; font-size: 24px">
+                Описание экскурсии
+              </p>
+              <p>
+                Вас ждет путешествие по "Золотому Кольцу Абхазии" на Мерседес
+                Спринтер (20 мест). По маршруту вас будет сопровождать
+                профессиональный гид. Посадка на экскурсию осуществляется с
+                вашего отеля или ближайшей автобусной остановки. Пересечение
+                границы без пересадок.
+              </p>
+            </div>
+            <div
+              class="col-12 col-lg-7 d-flex gap-4 mt-5 mt-lg-0 justify-content-center flex-wrap flex-nowrap-md"
+            >
+              <div
+                class="rounded-2 p-3 py-4 circle-yellow d-flex align-items-center flex-column justify-content-center"
+                style="
+                  background: rgba(255, 255, 255, 0.2);
+                  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+                  backdrop-filter: blur(10px);
+                "
+              >
+                <p
+                  class="fw-bold icon-money"
+                  style="color: #0499dd; font-size: 24px"
+                >
+                  1 618 ₽
+                </p>
+                <p>Взрослый билет</p>
+              </div>
+              <div
+                class="rounded-2 p-3 py-4 circle-yellow d-flex align-items-center flex-column justify-content-center"
+                style="
+                  background: rgba(255, 255, 255, 0.2);
+                  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+                  backdrop-filter: blur(10px);
+                "
+              >
+                <p
+                  class="fw-bold icon-money"
+                  style="color: #0499dd; font-size: 24px"
+                >
+                  1 412 ₽
+                </p>
+                <p>Детский билет</p>
+              </div>
+              <div
+                class="rounded-2 p-3 py-4 circle-yellow d-flex align-items-center flex-column justify-content-center"
+                style="
+                  background: rgba(255, 255, 255, 0.2);
+                  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+                  backdrop-filter: blur(10px);
+                "
+              >
+                <p
+                  class="fw-bold icon-time"
+                  style="color: #0499dd; font-size: 24px"
+                >
+                  12 часов
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+  class="my-5"
+  style="background: url(img/sunset.png); background-repeat: no-repeat"
+>
+  <div
+    class="container-xl d-flex justify-content-end align-items-end flex-column"
+    style="padding: 150px 20px"
+  >
+    <h3 class="fw-bold" style="color: #0499dd; font-size: 24px">
+      Календарь путешествий
+    </h3>
+    <div
+      class="rounded-2 mt-4 p-2 p-sm-4"
+      style="background: #ededed"
+      id="calendar-month"
+    >
+      <div
+        class="d-flex justify-content-between fw-bold gap-5 text-center"
+        style="color: #0499dd; font-size: 24px"
+      >
+        <div id="calendar-month-left">
+          <img
+            src="img/arrowright.svg"
+            alt="arrow"
+            style="transform: rotate(180deg); cursor: pointer"
+          />
+        </div>
+        <div>Ноябрь 2022</div>
+        <div id="calendar-month-right">
+          <img src="img/arrowright.svg" alt="arrow" style="cursor: pointer" />
+        </div>
+      </div>
+      <div
+        class="d-grid fw-bold gap-2 gap-sm-4 justify-content-center mt-4 text-center"
+        style="grid-template-columns: repeat(7, 1fr)"
+      >
+        <div>ПН</div>
+        <div>ВТ</div>
+        <div>СР</div>
+        <div>ЧТ</div>
+        <div>ПТ</div>
+        <div>СБ</div>
+        <div>ВС</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section style="margin: 200px 0px">
+        <div
+          class="container-xl d-flex align-items-center gap-5 flex-column flex-md-row"
+        >
+          <div class="col-md-5 col-12">
+            <div class="row">
+              <div>
+                <h3 class="fw-bold" style="color: #0499dd">
+                  Описание маршрута
+                </h3>
+                <ul class="yellow-ul mt-5 pt-5">
+                  <li>
+                    <span>
+                      Город Гагра, Колоннада, ресторан "Гагрипш", Парк принца
+                      Ольденбурского;
+                    </span>
+                  </li>
+                  <li>
+                    <span>
+                      Смотровая площадка "Прощай Родина", "Чабгарский" карниз,
+                      Подвесной мост через реку "Бзыбь";
+                    </span>
+                  </li>
+                  <li>
+                    <span>
+                      Дегустация сыра, меда, вина, чачи (входит в стоимость
+                      экскурсии), Голубое Озеро, Юпшарский каньон ("Каменный
+                      мешок"), Озеро "Рица", Водопады "Девичьи и мужские слезы".
+                    </span>
+                  </li>
+                </ul>
+                <div class="fw-bold my-5">Далее на выбор:</div>
+                <ul class="yellow-ul">
+                  <li>
+                    <span>
+                      Монастырь "Новый Афон", Новоафонская Пещера, "Рукотворный"
+                      водопад, храм "Симона Кананита", Лебединое озеро.
+                    </span>
+                  </li>
+                  <li>
+                    <span> Термальный источник в с. Приморское. </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-md-7 col-12 swiper rounded-2"
+            style="overflow-x: hidden; overflow-y: clip"
+          >
+            <div class="swiper-wrapper" style="margin-left: -10px">
+              <a
+                href="item.html"
+                class="col-4 rounded-2 text-decoration-none swiper-slide p-4 align-items-end d-flex"
+                style="
+                  background: url(img/itembg-2.png);
+                  background-size: cover;
+                  height: 420px;
+                "
+              >
+                <div class="text-yellow">Гагра</div>
+              </a>
+              <a
+                href="item.html"
+                class="col-4 rounded-2 text-decoration-none swiper-slide p-4 align-items-end d-flex"
+                style="
+                  background: url(img/itembg-2.png);
+                  background-size: cover;
+                  height: 420px;
+                "
+              >
+                <div class="text-yellow">Гагра</div>
+              </a>
+              <a
+                href="item.html"
+                class="col-4 rounded-2 text-decoration-none swiper-slide p-4 align-items-end d-flex"
+                style="
+                  background: url(img/itembg-2.png);
+                  background-size: cover;
+                  height: 420px;
+                "
+              >
+                <div class="text-yellow">Гагра</div>
+              </a>
+              <a
+                href="item.html"
+                class="col-4 rounded-2 text-decoration-none swiper-slide p-4 align-items-end d-flex"
+                style="
+                  background: url(img/itembg-2.png);
+                  background-size: cover;
+                  height: 420px;
+                "
+              >
+                <div class="text-yellow">Гагра</div>
+              </a>
+              <a
+                href="item.html"
+                class="col-4 rounded-2 text-decoration-none swiper-slide p-4 align-items-end d-flex"
+                style="
+                  background: url(img/itembg-2.png);
+                  background-size: cover;
+                  height: 420px;
+                "
+              >
+                <div class="text-yellow">Гагра</div>
+              </a>
+              <a
+                href="item.html"
+                class="col-4 rounded-2 text-decoration-none swiper-slide p-4 align-items-end d-flex"
+                style="
+                  background: url(img/itembg-2.png);
+                  background-size: cover;
+                  height: 420px;
+                "
+              >
+                <div class="text-yellow">Гагра</div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+  <div class="container-xl">
+    <h3 style="color: #0499dd; margin-bottom: 100px" class="fw-bold">
+      Дополнительные расходы (по желанию)
+    </h3>
+    <div class="row flex-lg-wrap gap-4 justify-content-center">
+      <div
+        class="rounded-2 p-3 py-4 circle-yellow d-flex align-items-center flex-column justify-content-center"
+        style="
+          background: rgba(255, 255, 255, 0.2);
+          box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+          backdrop-filter: blur(10px);
+          width: unset;
+        "
+      >
+        <p class="fw-bold icon-money" style="color: #0499dd; font-size: 24px">
+          200 ₽
+        </p>
+        <p>Дача Сталина</p>
+      </div>
+      <div
+        class="rounded-2 p-3 py-4 circle-yellow d-flex align-items-center flex-column justify-content-center"
+        style="
+          background: rgba(255, 255, 255, 0.2);
+          box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+          backdrop-filter: blur(10px);
+          width: unset;
+        "
+      >
+        <p class="fw-bold icon-money" style="color: #0499dd; font-size: 24px">
+          200 ₽
+        </p>
+        <p>Молочный водопад</p>
+      </div>
+      <div
+        class="rounded-2 p-3 py-4 circle-yellow d-flex align-items-center flex-column justify-content-center"
+        style="
+          background: rgba(255, 255, 255, 0.2);
+          box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+          backdrop-filter: blur(10px);
+          width: unset;
+        "
+      >
+        <p class="fw-bold icon-money" style="color: #0499dd; font-size: 24px">
+          500 ₽
+        </p>
+        <p>Новоафинская пещера</p>
+      </div>
+      <div
+        class="rounded-2 p-3 py-4 circle-yellow d-flex align-items-center flex-column"
+        style="
+          background: rgba(255, 255, 255, 0.2);
+          box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+          backdrop-filter: blur(10px);
+          width: unset;
+        "
+      >
+        <p class="fw-bold icon-money" style="color: #0499dd; font-size: 24px">
+          200 ₽
+        </p>
+        <p>Дача Сталина</p>
+      </div>
+      <div
+        class="rounded-2 p-3 py-4 circle-yellow d-flex align-items-center flex-column justify-content-center"
+        style="
+          background: rgba(255, 255, 255, 0.2);
+          box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+          backdrop-filter: blur(10px);
+          width: unset;
+        "
+      >
+        <p>Обед</p>
+      </div>
+    </div>
+    <h3 style="color: #0499dd; margin: 100px 0px" class="fw-bold">
+      Важная информация
+    </h3>
+    <div class="d-flex flex-wrap flex-md-nowrap">
+      <div class="mb-4">
+        <p class="mb-5">
+          При пересечении границы (Россия-Абхазия) при себе иметь:
+        </p>
+        <div class="d-flex gap-3">
+          <img
+            src="img/passport.png"
+            alt="passport"
+            style="width: 64px; height: 64px"
+          />
+          <p style="color: #0499dd" class="fw-bold">Паспорт гражданина РФ</p>
+        </div>
+        <div class="d-flex gap-3 mt-4">
+          <img
+            src="img/passport.png"
+            alt="passport"
+            style="width: 64px; height: 64px"
+          />
+          <div>
+            <p style="color: #0499dd" class="fw-bold mb-3">
+              Гражданам до 14 лет свидетельство о рождении
+            </p>
+            <p>
+              Несовершеннолетние дети пересекают границу в сопровождении
+              родителей, в сопровождении законного представителя (нотариально
+              заверенная доверенность с указанием страны вывоза ребенка).
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="d-flex gap-3 flex-column"
+        style="width: 100%; max-width: 350px"
+      >
+        <div
+          class="rounded-2 p-3 position-relative"
+          style="
+            background: #ededed;
+            max-width: 350px;
+            padding-right: 50px !important;
+          "
+        >
+          Иностранным гражданам въезд в Абхазию ограничен, кроме граждан
+          Украины, республик ДНР и ЛНР.
+          <img
+            src="img/exlamination.png"
+            alt="mark"
+            class="position-absolute"
+            style="right: 16px; top: 50%; transform: translate(0%, -50%)"
+          />
+        </div>
+        <div
+          class="rounded-2 p-3 position-relative"
+          style="
+            background: #ededed;
+            max-width: 350px;
+            padding-right: 50px !important;
+          "
+        >
+          При возвращении из Абхазии в Россию сдавать ПЦР-тест не нужно, на
+          карантин помещать не будут (Постановление Правительства РФ 1996-Р от
+          01.08.2020).
+          <img
+            src="img/exlamination.png"
+            alt="mark"
+            class="position-absolute"
+            style="right: 16px; top: 50%; transform: translate(0%, -50%)"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ <section class="galery px-4">
+  <div class="container-xl">
+    <div class="row d-flex justify-content-between" style="margin-bottom: 75px">
+      <div style="width: initial" class="text-primary fs-5 fw-bold">
+        Галерея
+      </div>
+      <div style="width: initial">
+        <a href="" class="text-black" style="font-size: 12px">Смотреть все</a>
+      </div>
+    </div>
+    <div
+      class="d-grid p-2 gap-2 overflow-hidden rounded-4"
+      style="grid-auto-rows: 567px; grid-template-columns: repeat(3, 1fr)"
+    >
+      <div class="d-grid" style="grid-template-columns: repeat(1, 1fr)">
+        <div>
+          <img src="img/galery-2.png" alt="image" />
+        </div>
+        <div class="d-grid" style="grid-template-columns: repeat(2, 1fr)">
+          <img src="img/galery-3.png" alt="image" />
+          <img src="img/galery-4.png" alt="image" />
+        </div>
+      </div>
+      <div>
+        <img
+          src="img/galery-1.png"
+          alt="image"
+          style="height: calc(100% - 10px)"
+        />
+      </div>
+      <div class="d-grid" style="grid-template-columns: repeat(1, 1fr)">
+        <div>
+          <img src="img/galery-2.png" alt="image" />
+        </div>
+        <div class="d-grid" style="grid-template-columns: repeat(2, 1fr)">
+          <div>
+            <img src="img/galery-3.png" alt="image" />
+          </div>
+          <div>
+            <img src="img/galery-4.png" alt="image" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="reviews">
+  <div class="container-xl position-relative">
+    <div class="row d-flex justify-content-between" style="margin-bottom: 75px">
+      <div style="width: initial" class="text-primary fs-5 fw-bold">Отзывы</div>
+      <div style="width: initial">
+        <a href="" class="text-black" style="font-size: 12px">Смотреть все</a>
+      </div>
+    </div>
+    <div class="row d-flex gap-4 swiper-review mx-2">
+      <div class="swiper-wrapper gap-2">
+        <div
+          class="swiper-slide p-4 position-relative rounded-2 row me-4"
+          style="background: #ededed"
+        >
+          <div
+            class="position-absolute brackets"
+            style="top: 20%; left: 350px; z-index: -1"
+          >
+            <img src="img/reviewbg.png" alt="reviewbg" />
+          </div>
+          <div class="col-lg-3 col-md-6 mb-3" style="min-width: 150px">
+            <img
+              src="img/authorphoto.png"
+              style="min-width: 150px"
+              alt="authorphot"
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-lg-9 col-md-12">
+            <p class="fw-bold mb-3">Иван Иванов, 25 лет</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </div>
+        <div
+          class="swiper-slide p-4 position-relative rounded-2 row me-4"
+          style="background: #ededed"
+        >
+          <div
+            class="position-absolute brackets"
+            style="top: 20%; left: 350px; z-index: -1"
+          >
+            <img src="img/reviewbg.png" alt="reviewbg" />
+          </div>
+          <div class="col-lg-3 col-md-6 mb-3" style="min-width: 150px">
+            <img
+              src="img/authorphoto.png"
+              style="min-width: 150px"
+              alt="authorphot"
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-lg-9 col-md-12">
+            <p class="fw-bold mb-3">Иван Иванов, 25 лет</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </div>
+        <div
+          class="swiper-slide p-4 position-relative rounded-2 row me-4"
+          style="background: #ededed"
+        >
+          <div
+            class="position-absolute brackets"
+            style="top: 20%; left: 350px; z-index: -1"
+          >
+            <img src="img/reviewbg.png" alt="reviewbg" />
+          </div>
+          <div class="col-lg-3 col-md-6 mb-3" style="min-width: 150px">
+            <img
+              src="img/authorphoto.png"
+              style="min-width: 150px"
+              alt="authorphot"
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-lg-9 col-md-12">
+            <p class="fw-bold mb-3">Иван Иванов, 25 лет</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </div>
+        <div
+          class="swiper-slide p-4 position-relative rounded-2 row me-4"
+          style="background: #ededed"
+        >
+          <div
+            class="position-absolute brackets"
+            style="top: 20%; left: 350px; z-index: -1"
+          >
+            <img src="img/reviewbg.png" alt="reviewbg" />
+          </div>
+          <div class="col-lg-3 col-md-6 mb-3" style="min-width: 150px">
+            <img
+              src="img/authorphoto.png"
+              style="min-width: 150px"
+              alt="authorphot"
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-lg-9 col-md-12">
+            <p class="fw-bold mb-3">Иван Иванов, 25 лет</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </div>
+        <div
+          class="swiper-slide p-4 position-relative rounded-2 row me-4"
+          style="background: #ededed"
+        >
+          <div
+            class="position-absolute brackets"
+            style="top: 20%; left: 350px; z-index: -1"
+          >
+            <img src="img/reviewbg.png" alt="reviewbg" />
+          </div>
+          <div class="col-lg-3 col-md-6 mb-3" style="min-width: 150px">
+            <img
+              src="img/authorphoto.png"
+              style="min-width: 150px"
+              alt="authorphot"
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-lg-9 col-md-12">
+            <p class="fw-bold mb-3">Иван Иванов, 25 лет</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </div>
+        <div
+          class="swiper-slide p-4 position-relative rounded-2 row me-4"
+          style="background: #ededed"
+        >
+          <div
+            class="position-absolute brackets"
+            style="top: 20%; left: 350px; z-index: -1"
+          >
+            <img src="img/reviewbg.png" alt="reviewbg" />
+          </div>
+          <div class="col-lg-3 col-md-6 mb-3" style="min-width: 150px">
+            <img
+              src="img/authorphoto.png"
+              style="min-width: 150px"
+              alt="authorphot"
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-lg-9 col-md-12">
+            <p class="fw-bold mb-3">Иван Иванов, 25 лет</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="swiper-button-prev position-absolute"
+        style="top: calc(100% + 32px); transform: translate(0%, 0%); left: 3%"
+      ></div>
+      <div
+        class="swiper-button-next position-absolute"
+        style="top: calc(100% + 32px); transform: translate(0%, 0%); left: 8%"
+      ></div>
+      <div
+        class="swiper-scrollbar position-absolute"
+        style="
+          bottom: -34px;
+          transform: scale(0.9, 1) translate(-47%, 0%);
+          left: 50%;
+        "
+      ></div>
+    </div>
+  </div>
+</section>
+
+      <section
+        style="
+          background: url(img/sunset.png);
+          background-repeat: no-repeat;
+          margin-top: 200px !important;
+        "
+      >
+        <div
+          class="container-xl d-flex justify-content-end align-items-end flex-column"
+          style="padding: 150px 20px"
+        >
+          <h3 class="fw-bold mb-5 pb-5" style="color: #0499dd; font-size: 24px">
+            Забронировать тур
+          </h3>
+          <div
+            class="d-flex gap-4 flex-column justify-content-end align-items-end my-3"
+            style="width: 100%"
+          >
+            <div
+              class="select-div icon-geo-after text-primary d-flex align-items-center"
+              style="font-size: 24px; max-width: 360px; width: 100%"
+            >
+              <select name="place" id="place-select" style="width: 100%">
+                <option value="Абхазия" data-place="Абхазия">Абхазия</option>
+                <option value="Сочи" data-place="Сочи">Сочи</option>
+                <option value="Сахара" data-place="Сахара">Сахара</option>
+              </select>
+            </div>
+            <div
+              class="select-div icon-date-after text-primary d-flex align-items-center position-relative"
+              style="font-size: 24px; max-width: 360px; width: 100%"
+            >
+              <div id="calendar" class="text-black" style="user-select: none">
+                10 Ноября 2022
+              </div>
+              <div
+                class="position-absolute p-3 rounded-2 text-black"
+                id="calendar-content"
+                style="
+                  background-color: white;
+                  visibility: hidden;
+                  top: calc(100% + 10px);
+                  font-size: 16px;
+                  left: 0px;
+                  border: 2px solid #d4d4d4;
+                  user-select: none;
+                  z-index: 3;
+                "
+              >
+                <div class="text-center mb-2 d-flex justify-content-between">
+                  <div id="calendar-content-prev">&lt;</div>
+                  <div id="calendar-content-month">Month</div>
+                  <div id="calendar-content-next">&gt;</div>
+                </div>
+                <div class="d-flex gap-2 mb-2">
+                  <div>ПН</div>
+                  <div>ВТ</div>
+                  <div>СР</div>
+                  <div>ЧТ</div>
+                  <div>ПТ</div>
+                  <div>СБ</div>
+                  <div>ВС</div>
+                </div>
+                <div
+                  class="d-grid gap-2 text-center"
+                  style="grid-template-columns: repeat(7, 1fr)"
+                  id="calendar-content-numbers"
+                ></div>
+              </div>
+            </div>
+            <div
+              class="select-div icon-people-after text-primary d-flex align-items-center"
+              style="font-size: 24px; max-width: 360px; width: 100%"
+            >
+              <select name="place" id="people-select" style="width: 100%">
+                <option value="5" data-people="5">5 человек</option>
+                <option value="4" data-people="4">4 человека</option>
+                <option value="3" data-people="3">3 человека</option>
+                <option value="2" data-people="3">2 человека</option>
+              </select>
+            </div>
+            <div
+              style="max-width: 360px; width: 100%"
+              class="d-flex gap-3 flex-wrap gap-sm-5"
+            >
+              <button
+                type="button"
+                class="btn btn-primary px-5 rounded-5 text-white d-flex align-items-center justify-content-center fw-bold"
+                style="font-size: 16px; margin: 0 auto; width: 76%"
+              >
+                Показать
+              </button>
+              <button
+                class="like icon-heart text-white"
+                style="font-size: 22px"
+              ></button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer style="background: #ededed">
+  <div class="container-xl p-4">
+    <div class="row align-items-center">
+      <div class="col-md-2 col-sm-12">
+        <img src="img/logo-colorful.png" alt="logo" />
+      </div>
+      <div class="col-md-4 d-flex flex-column gap-3 footer-links">
+        <a href="" class="text-decoration-none text-black nav-link">Главная</a>
+        <a href="" class="text-decoration-none text-black nav-link"
+          >Экскурсии</a
+        >
+        <a href="" class="text-decoration-none text-black nav-link"
+          >Личный кабинет</a
+        >
+      </div>
+      <div class="col-md-4 col-sm-12 d-flex flex-column gap-3">
+        <a href="" class="icon-whatsup" style="font-size: 16px"
+          >+7 964 944 18 74</a
+        >
+        <a href="" class="icon-telegram" style="font-size: 16px"
+          >+7 918 919 98 28</a
+        >
+        <a href="" class="icon-telegram" style="font-size: 16px"
+          >Телеграм-бот PeroTravel</a
+        >
+      </div>
+      <div class="col-md-2 d-flex footer-socials">
+        <a
+          class="icon-vk social-link p-2"
+          style="color: #bc0000; font-size: 24px"
+        ></a>
+        <a
+          class="icon-inst social-link text-yellow p-2"
+          style="font-size: 24px"
+        ></a>
+        <a
+          class="icon-facebook social-link p-2"
+          style="color: #17c1bc; font-size: 24px"
+        ></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    <script src="js/app.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
